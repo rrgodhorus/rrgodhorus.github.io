@@ -18,11 +18,17 @@
 <input type="text" readonly style="color: #FF0080;background-color: #C9C299" id="field2">
 <button style="background-color: #E799A3" onclick="document.getElementById('field2').value = document.getElementById('field1').value">Click to Copy Text</button>
  <input type="button" value="Click me" onclick="msg()">
+ <p></p>
+ <p>
+ <input type="button" value="Shit" onclick="fun1()" id="inputshit"</p>
 <script>
 
 
 function msg(){
  alert("hello shit works");
+}
+function fun1(){
+   document.getElementById('inputshit').type="text";
 }
 </script>
 
