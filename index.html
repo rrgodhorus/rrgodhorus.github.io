@@ -14,11 +14,17 @@
   <a href=https://www.w3schools.com/colors/colors_picker.asp target=_blank>Click here to go to some webpage</a>
 
 </p>
-
+<input type="text" style="color: black;background-color: red" id="field1" value="Good Morning">
+<input type="text" readonly style="color: #FF0080;background-color: #C9C299" id="field2">
+<button style="background-color: #E799A3" onclick="document.getElementById('field2').value = document.getElementById('field1').value">Click to Copy Text</button>
+ <input type="button" value="Click me" onclick="msg()">
 <script>
 
 
-document.write(5+6);
+function msg(){
+ alert("hello shit works");
+}
+</script>
 
 
 <button type="button"
@@ -27,7 +33,7 @@ Click me to display Date and Time.</button>
 <input type="text" id="input1" readonly>Input text</input>
 
 
-</script>
+
 <p id="demo"></p>
 <p>
 <br>Blockquote in action:
